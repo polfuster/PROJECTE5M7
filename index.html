@@ -66,29 +66,25 @@
               <p class="lead text-muted">GENERACIÓ DE CERTIFICATS DE SERVIDOR I CLIENT.</p>
               <p class="lead text-muted">Aquí explico com ho he fet:</p>
               <p class="lead text-muted">INSTAL·LACIÓ DEL SERVIDOR</p>
-              <p class="lead text-muted">Hem d'executar les següents comandes:</p>
-              <p class="lead text-muted"> -docker volume create volum_mail_server</p>
-              <p class="lead text-muted"> -</p>
-              <p class="lead text-muted">HE INSTAL·LAT EL SERVIDOR AMB LES COMANDES:</p>              
+              <p class="lead text-muted">Hem d'executar les següents comandes:</p>              
 <p class="lead text-muted">Instal.lar paquets de Docker</p>           
-<p class="lead text-muted">-sudo apt-get update</p>               
-<p class="lead text-muted">-sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common</p>               
+<p class="lead text-muted"> -sudo apt-get update</p>               
+<p class="lead text-muted"> -sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common</p>               
 <p class="lead text-muted">Instal.lar Docker</p>                 
-<p class="lead text-muted">-sudo apt update</p>                   
-<p class="lead text-muted">-sudo apt install apt-transport-https ca-certificates curl software-properties-common</p>                
-<p class="lead text-muted">-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</p>                
-<p class="lead text-muted">-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"</p>                
-<p class="lead text-muted">-sudo apt update</p>                
-<p class="lead text-muted">-apt-cache policy docker-ce</p>                
-<p class="lead text-muted">-apt-cache policy docker-ce</p>                              
-<p class="lead text-muted">-sudo systemctl start docker</p>                
-<p class="lead text-muted">-sudo systemctl status docker</p>
-<p class="lead text-muted">Si volem desinstalar i eliminar docker, es fa amb la comanda següent:</p>
-<p class="lead text-muted">-sudo apt-get purge docker-ce</p>
+<p class="lead text-muted"> -sudo apt update</p>                   
+<p class="lead text-muted"> -sudo apt install apt-transport-https ca-certificates curl software-properties-common</p>                
+<p class="lead text-muted"> -curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</p>                
+<p class="lead text-muted"> -sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"</p>                
+<p class="lead text-muted"> -sudo apt update</p>                
+<p class="lead text-muted"> -apt-cache policy docker-ce</p>                
+<p class="lead text-muted"> -apt-cache policy docker-ce</p>                              
+<p class="lead text-muted"> -sudo systemctl start docker</p>                
+<p class="lead text-muted"> -sudo systemctl status docker</p>
+<p class="lead text-muted">Si volem desinstalar i eliminar docker, es fa amb les comandes següents:</p>
+<p class="lead text-muted"> -sudo apt-get purge docker-ce</p>
+<p class="lead text-muted"> -sudo rm -rf /var/lib/docker</p>
+<p class="lead text-muted">GESTIÓ DE COMPTES DEL DOMINI</p>              
 <p class="lead text-muted">ENVIAMENT DE CORREUS ENTRE COMPTES DEL PROPI DOMINI</p>
-              
-              
-              
           </div>
         </div>
       </section>
